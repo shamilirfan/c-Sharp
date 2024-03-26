@@ -1,0 +1,13 @@
+// Assignment-1.cs
+
+using System;
+
+class Test
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("My name is Shiwly.");
+        Console.WriteLine("I'm 22 years old.");
+        Console.WriteLine("I'm a student.");
+    }
+}
