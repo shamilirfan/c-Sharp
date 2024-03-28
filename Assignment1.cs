@@ -1,5 +1,4 @@
-// Assignment-1.cs
-
+// Assignment1.cs
 using System;
 
 class Test
