@@ -5,11 +5,11 @@ class Test6
     public static void Main(string[] args)
     {
         int int1 = 5;
-       // double double1 = 5.32;
+        // double double1 = 5.32;
 
         // int variable assign in double variable. it is allowed because double is greater than int.
         double assign1 = int1;
-       // Console.WriteLine(assign2);
+        // Console.WriteLine(assign2);
 
 
         // int variable assign in double variable. it is not allowed because int is smaller than double.
@@ -39,6 +39,9 @@ class Test6
         // 
         string number = "10";
         Console.WriteLine(int.Parse(number));
+        Console.WriteLine(Convert.ToInt32(number));
+        Console.WriteLine(Convert.ToInt16(number));
+
 
         //
         Console.WriteLine(int.TryParse(number, out int result));
