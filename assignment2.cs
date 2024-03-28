@@ -1,4 +1,4 @@
-// assignment 2
+// assignment2
 using System;
 
 class Test
