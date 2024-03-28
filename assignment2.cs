@@ -1,7 +1,7 @@
 // assignment2
 using System;
 
-class Test
+class Test2
 {
     public static void Main(string[] args)
     {

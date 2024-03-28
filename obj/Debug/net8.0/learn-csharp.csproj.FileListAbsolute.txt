@@ -3,3 +3,13 @@ C:\Users\Shamil Irfan\learn-csharp\obj\Debug\net8.0\learn-csharp.AssemblyInfoInp
 C:\Users\Shamil Irfan\learn-csharp\obj\Debug\net8.0\learn-csharp.AssemblyInfo.cs
 C:\Users\Shamil Irfan\learn-csharp\obj\Debug\net8.0\learn-csharp.csproj.CoreCompileInputs.cache
 C:\Users\Shamil Irfan\learn-csharp\obj\Debug\net8.0\learn-csharp.sourcelink.json
+C:\Users\Shamil Irfan\learn-csharp\bin\Debug\net8.0\learn-csharp.exe
+C:\Users\Shamil Irfan\learn-csharp\bin\Debug\net8.0\learn-csharp.deps.json
+C:\Users\Shamil Irfan\learn-csharp\bin\Debug\net8.0\learn-csharp.runtimeconfig.json
+C:\Users\Shamil Irfan\learn-csharp\bin\Debug\net8.0\learn-csharp.dll
+C:\Users\Shamil Irfan\learn-csharp\bin\Debug\net8.0\learn-csharp.pdb
+C:\Users\Shamil Irfan\learn-csharp\obj\Debug\net8.0\learn-csharp.dll
+C:\Users\Shamil Irfan\learn-csharp\obj\Debug\net8.0\refint\learn-csharp.dll
+C:\Users\Shamil Irfan\learn-csharp\obj\Debug\net8.0\learn-csharp.pdb
+C:\Users\Shamil Irfan\learn-csharp\obj\Debug\net8.0\learn-csharp.genruntimeconfig.cache
+C:\Users\Shamil Irfan\learn-csharp\obj\Debug\net8.0\ref\learn-csharp.dll

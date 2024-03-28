@@ -1,7 +1,7 @@
 //BasicStructure
 using System;
 
-class Test
+class Test4
 {
     public static void Main(string[] args)
     {

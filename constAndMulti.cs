@@ -2,7 +2,7 @@
 
 using System;
 
-class Test
+class Test5
 {
     public static void Main(string[] args)
     {

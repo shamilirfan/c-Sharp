@@ -1,7 +1,7 @@
 // Assignment1.cs
 using System;
 
-class Test
+class Test1
 {
     public static void Main(string[] args)
     {
