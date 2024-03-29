@@ -1,12 +1,13 @@
 ﻿using System;
 
-class Practice
+class Prac
 {
     public static void Main(string[] args)
     {
 
+       
 
-        Console.WriteLine();
+
 
     }
 }
