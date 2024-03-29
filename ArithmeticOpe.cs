@@ -1,9 +1,10 @@
 using System;
 
-class Test1
+class ArithmeticOpe
 {
     public static void Main(string[] args)
     {
+        // Arithmetic Operators = +, -,*, /, %
         int num1 = 10;
         int num2 = 3;
 
@@ -25,7 +26,7 @@ class Test1
         Console.WriteLine($"{num1} / {num2} =  {num1 / num2}");
         Console.WriteLine($"{num1} % {num2} =  {num1 % num2}");
         //
-        double sum = (double)num1 / num2;
+        // double sum = (double)num1 / num2;
         Console.WriteLine($"{num1} / {num2} = {sum}");
         Console.WriteLine($"{num1} / {num2} = {sum.ToString("F2")}");
 
