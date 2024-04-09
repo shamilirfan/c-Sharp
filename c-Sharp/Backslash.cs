@@ -10,7 +10,7 @@ class Test3
         Console.Write("\t how are ");
         Console.WriteLine("you?");
         Console.WriteLine("\\ Hi");
-        Console.WriteLine("\" Hi");
-        Console.WriteLine("\' Hi");
+        Console.WriteLine("\" Hi\"");
+        Console.WriteLine("\' Hi\'");
     }
 }
