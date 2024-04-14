@@ -1,13 +1,9 @@
-﻿using System;
+using System;
 
-class Program
+class ThisAndReadonly
 {
     public static void Main(string[] args)
     {
-        
-
 
     }
 }
-
-

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shamil Irfan\\c-Sharp\\c-Sharp\\c-Sharp.csproj": {}
+    "C:\\Users\\Shamil Irfan\\c-Sharp\\c-Sharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shamil Irfan\\c-Sharp\\c-Sharp\\c-Sharp.csproj": {
+    "C:\\Users\\Shamil Irfan\\c-Sharp\\c-Sharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shamil Irfan\\c-Sharp\\c-Sharp\\c-Sharp.csproj",
+        "projectUniqueName": "C:\\Users\\Shamil Irfan\\c-Sharp\\c-Sharp.csproj",
         "projectName": "c-Sharp",
-        "projectPath": "C:\\Users\\Shamil Irfan\\c-Sharp\\c-Sharp\\c-Sharp.csproj",
+        "projectPath": "C:\\Users\\Shamil Irfan\\c-Sharp\\c-Sharp.csproj",
         "packagesPath": "C:\\Users\\Shamil Irfan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shamil Irfan\\c-Sharp\\c-Sharp\\obj\\",
+        "outputPath": "C:\\Users\\Shamil Irfan\\c-Sharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shamil Irfan\\AppData\\Roaming\\NuGet\\NuGet.Config"
