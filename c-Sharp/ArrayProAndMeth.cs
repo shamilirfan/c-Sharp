@@ -10,10 +10,11 @@ class ArrayProAndMeth
         Console.WriteLine($"Length of array = {numbers1.Length}");
         Console.WriteLine($"Dyemention of array = {numbers1.Rank}");
         Console.WriteLine($"Dyemention of array = {numbers2.Rank}");
-        Console.WriteLine($"Maximum value of array =  {numbers1.Max()}");
-        Console.WriteLine($"Minimum value of array =  {numbers1.Min()}");
-        Console.WriteLine($"Sum of array =  {numbers1.Sum()}");
-        Console.WriteLine($"Sum of array =  {numbers1.Average()}");
+        Console.WriteLine(numbers1.Max());
+        Console.WriteLine(numbers1.Min());
+        Console.WriteLine(numbers1.Sum());
+        Console.WriteLine(numbers1.Average());
+
 
 
     }
