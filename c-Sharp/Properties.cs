@@ -1,8 +1,8 @@
 using System;
 
-class Person
+class PersOn
 {
-    public string name; // readable and writeable
+    public string? name; // readable and writeable
     private int age; // not readable and writeable
     public int Age // readable and writeable
     {
@@ -24,9 +24,10 @@ class Properties
 {
     public static void Main(string[] args)
     {
-        Person p1 = new Person();
+        PersOn p1 = new PersOn();
         p1.name = "Linda";
         p1.Age = 22;
         Console.WriteLine($"Name: {p1.name}, Age: {p1.Age}");
     }
 }
+

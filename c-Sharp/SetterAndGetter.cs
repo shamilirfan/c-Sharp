@@ -1,16 +1,16 @@
 using System;
 
-class Person
+class PersoN
 {
-    public string name; // readable and writeable
+    public string? name; // readable and writeable
     private int age; // not readable and not writeable
-    public void SetAge(int a) // writeable
-    {
-        age = a;
-    }
     public int GetAge() // readable
     {
         return age;
+    }
+    public void SetAge(int a) // writeable
+    {
+        age = a;
     }
     public void DisplayInfo()
     {
@@ -21,7 +21,7 @@ class SetterAndGetter
 {
     public static void Main(string[] args)
     {
-        Person p1 = new Person();
+        PersoN p1 = new PersoN();
         p1.name = "Bob";
         p1.SetAge(32);
         p1.DisplayInfo();
