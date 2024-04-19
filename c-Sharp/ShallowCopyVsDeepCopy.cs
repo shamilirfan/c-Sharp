@@ -34,6 +34,9 @@ class ShallowCopyVsDeepCopy
         PrintArray(shallowCopy);
 
 
+
+
+
         // Deep Copy
         int[] originalArray2 = { 1, 2, 3, 4, 5 };
         int[] deepCopy = new int[originalArray2.Length];
@@ -45,8 +48,7 @@ class ShallowCopyVsDeepCopy
         Console.Write($"deepCopy before modification: ");
         PrintArray(deepCopy);
 
-
-        // change value from Shallow copy
+        // change value from Deep copy
         deepCopy[0] = 10;
 
         Console.Write($"originalArray2 after modification: ");
