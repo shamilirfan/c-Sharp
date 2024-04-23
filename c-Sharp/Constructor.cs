@@ -4,9 +4,9 @@ class PersonClass2
 {
     string name;
     int age;
+    // default constructor
     public PersonClass2()
     {
-
         name = "test";
         age = 0;
     }
@@ -14,6 +14,11 @@ class PersonClass2
     {
         name = n;
         age = a;
+    }
+    // constructor overloading
+    public PersonClass2(string n)
+    {
+        name = n;
     }
     public void DisplayPersonInfo()
     {
@@ -27,7 +32,7 @@ class Constructor
         PersonClass2 person1 = new PersonClass2("Alex", 33);
         person1.DisplayPersonInfo();
 
-        PersonClass2 person2 = new PersonClass2("Bob", 20);
+        PersonClass2 person2 = new PersonClass2("Bob");
         person2.DisplayPersonInfo();
 
         PersonClass2 person3 = new PersonClass2();
