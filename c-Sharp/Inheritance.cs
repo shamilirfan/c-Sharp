@@ -21,4 +21,3 @@ class Inheritance
         Console.WriteLine($"Brand: {car1.brand}, Model: {car1.model}, Sound: {car1.sound()}");
     }
 }
-

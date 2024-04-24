@@ -14,6 +14,7 @@ class Assignment11
         int digitCount = input.Count(char.IsDigit);
         int specialCharacterCount = input.Count(a => !char.IsLetterOrDigit(a) && !char.IsWhiteSpace(a));
         int whiteSpace = input.Count(a => char.IsWhiteSpace(a));
+        string[] words = input.Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
 
         Console.WriteLine($"Number of vowels: {vowelCount}");
@@ -21,16 +22,7 @@ class Assignment11
         Console.WriteLine($"Number of digit: {digitCount}");
         Console.WriteLine($"Number of special character: {specialCharacterCount}");
         Console.WriteLine($"Number of whiteSpace: {whiteSpace}");
-
-
-        // word count
-        string[] words = input.Split(' ');
-
-        for (int i = 1; i <= words.Length; i++)
-        {
-            Console.WriteLine($"Number of words: {words.Length}");
-            break;
-        }
+        Console.WriteLine($"Number of words: {words.Length}");
 
 
     }
