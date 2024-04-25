@@ -1,5 +1,0 @@
-C:\Users\Shamil Irfan\c-Sharp\obj\Debug\net8.0\c-Sharp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Shamil Irfan\c-Sharp\obj\Debug\net8.0\c-Sharp.AssemblyInfoInputs.cache
-C:\Users\Shamil Irfan\c-Sharp\obj\Debug\net8.0\c-Sharp.AssemblyInfo.cs
-C:\Users\Shamil Irfan\c-Sharp\obj\Debug\net8.0\c-Sharp.csproj.CoreCompileInputs.cache
-C:\Users\Shamil Irfan\c-Sharp\obj\Debug\net8.0\c-Sharp.sourcelink.json
