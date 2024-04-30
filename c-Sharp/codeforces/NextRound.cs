@@ -4,10 +4,9 @@ class NextRound
 {
     public static void Main(string[] args)
     {
-        string intput1 = Console.ReadLine().Trim();
-        string[] a = intput1.Split(' ');
-        int b = int.Parse(a[0]);
-        int c = int.Parse(a[1]);
+        string[] intput1 = Console.ReadLine().Split(' ');
+        int b = int.Parse(intput1[0]);
+        int c = int.Parse(intput1[1]);
 
         string[] intput2 = Console.ReadLine().Split(' ');
         int[] x = new int[b];
@@ -17,14 +16,14 @@ class NextRound
             x[d] = int.Parse(intput2[d]);
         }
 
-        int sum = 0;
+        int result = 0;
         int j = x[c - 1];
 
         foreach (int y in x)
         {
             if (y >= j && y > 0)
             {
-                sum++;
+                result++;
             }
             else
             {
@@ -32,6 +31,7 @@ class NextRound
             }
         }
 
-        Console.Write($"{sum} ");
+        Console.Write($"{result} ");
+        
     }
 }
