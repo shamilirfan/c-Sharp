@@ -1,9 +1,17 @@
 using System;
 
-class PersoN
+class Person
 {
-    public string? name; // readable and writeable
-    private int age; // not readable and not writeable
+    private string name;
+    public string GetName() // readable
+    {
+        return name;
+    }
+    public void SetName(string n) // writeable
+    {
+        name = n;
+    }
+    private int age;
     public int GetAge() // readable
     {
         return age;
@@ -12,19 +20,16 @@ class PersoN
     {
         age = a;
     }
-    public void DisplayInfo()
-    {
-        Console.WriteLine($"Name: {name}, Age: {GetAge()}");
-    }
+    private string city;  // not readable and not writeable
 }
 class SetterAndGetter
 {
     public static void Main(string[] args)
     {
-        PersoN p1 = new PersoN();
-        p1.name = "Bob";
-        p1.SetAge(32);
-        p1.DisplayInfo();
+        Person topu = new Person();
+        topu.SetName("Topu");
+        topu.SetAge(35);
+        Console.WriteLine($"Name: {topu.GetName()}, Age: {topu.GetAge()}");
 
     }
 }

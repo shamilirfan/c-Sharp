@@ -4,7 +4,7 @@ class PersOn
 {
     public string? name; // readable and writeable
     private int age; // not readable and writeable
-    public int Age // readable and writeable
+    public int Age // readable and writeable by properties 
     {
         get
         {

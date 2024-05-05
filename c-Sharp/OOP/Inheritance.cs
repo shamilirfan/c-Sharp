@@ -19,34 +19,44 @@ class BankAccount
 class SavingAccount : BankAccount
 {
     public double interestAmount { get; set; }
-
+    public SavingAccount(string accountNumber, string customerName, double interestAmount)
+    {
+        this.accountNumber = accountNumber;
+        this.customerName = customerName;
+        this.interestAmount = interestAmount;
+    }
+    public void DisplayInfo()
+    {
+        Console.WriteLine($"Account Number: {accountNumber}, Customer Name: {customerName}, Interest Amount: {interestAmount}, Balance: {balance}");
+    }
 }
 class CheckingAccount : BankAccount
 {
     public double serviceCharge { get; set; }
-
+    public CheckingAccount(string accountNumber, string customerName, double serviceCharge)
+    {
+        this.accountNumber = accountNumber;
+        this.customerName = customerName;
+        this.serviceCharge = serviceCharge;
+    }
+    public void DisplayInfo()
+    {
+        Console.WriteLine($"Account Number: {accountNumber}, Customer Name: {customerName}, Service Charge: {serviceCharge}, Balance: {balance}");
+    }
 }
 class Inheritance
 {
     public static void Main(string[] args)
     {
-        SavingAccount sv1 = new SavingAccount();
-        sv1.interestAmount = 500;
-        sv1.accountNumber = "sv-001";
-        sv1.customerName = "Himal";
-        sv1.Deposit(1000);
-        sv1.Withdraw(500);
-        Console.WriteLine($"{sv1.balance}");
-        
+        SavingAccount anika = new SavingAccount("101", "Anika", 20.24);
+        anika.Deposit(1000);
+        anika.Withdraw(400);
+        anika.DisplayInfo();
 
-        CheckingAccount ch1 = new CheckingAccount();
-        ch1.serviceCharge = 1000;
-        ch1.accountNumber = "ch-001";
-        ch1.customerName = "Rupa";
-        ch1.Deposit(2000);
-        ch1.Withdraw(300);
-        Console.WriteLine($"{ch1.balance}");
-        
+        CheckingAccount ripon = new CheckingAccount("101", "Ripon", 68.67);
+        ripon.Deposit(200000);
+        ripon.Withdraw(967);
+        ripon.DisplayInfo();
 
     }
 }
