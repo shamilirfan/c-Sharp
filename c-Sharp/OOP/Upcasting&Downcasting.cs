@@ -50,8 +50,8 @@ class UpcastingDowncasting
 
         // Down casting
         BankAccount b1 = sv1;
-        SavingAccount sv2 = (SavingAccount)b1;
-        
+        SavingAccount sv2 = (SavingAccount) b1;
+
         Console.WriteLine($"{sv2.interestAmount}");
 
 

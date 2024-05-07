@@ -27,13 +27,13 @@ class Enum
         switch (c)
         {
             case Months.January:
-                Console.WriteLine($"January");
+                Console.WriteLine($"{Months.January}");
                 break;
             case Months.February:
-                Console.WriteLine($"The month of mother tongue.");
+                Console.WriteLine($"{Months.February} is the month of mother tongue.");
                 break;
             case Months.March:
-                Console.WriteLine($"The month of victory.");
+                Console.WriteLine($"{Months.March} is the month of victory.");
                 break;
         }
 

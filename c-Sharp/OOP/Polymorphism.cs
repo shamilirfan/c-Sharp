@@ -11,21 +11,21 @@ class Rose : Flower // derived class(child)
 {
     public override void FlowerColor()
     {
-        Console.WriteLine($"Like, Rose is red.");
+        Console.WriteLine($"Rose is red.");
     }
 }
 class Jasmin : Flower // derived class(child)
 {
     public override void FlowerColor()
     {
-        Console.WriteLine($"Like, Jasmine is white.");
+        Console.WriteLine($"Jasmine is white.");
     }
 }
 class Popy : Flower // derived class(child)
 {
     public override void FlowerColor()
     {
-        Console.WriteLine($"Like, Popy is pink.");
+        Console.WriteLine($"Popy is pink.");
     }
 }
 class Polymorphism
