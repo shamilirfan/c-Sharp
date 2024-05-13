@@ -12,10 +12,10 @@ class SelectObj
     {
         List<Student> students = new List<Student>
         {
-           new Student{name = "Alex", age = 30, city = "Khulna"},
+            new Student{name = "Alex", age = 30, city = "Khulna"},
             new Student{name = "Bob", age = 45, city = "Dhaka"},
             new Student{name = "Rupa", age = 20, city = "Comilla"},
-            new Student {name = "Himal", age = 18, city = "Savar"},
+            new Student{name = "Himal", age = 18, city = "Savar"},
             new Student{name = "Shiwly", age = 25, city = "Dhaka"}
         };
 
