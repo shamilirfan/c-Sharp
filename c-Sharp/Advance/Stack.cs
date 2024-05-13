@@ -8,6 +8,7 @@ class Stack
 {
     public static void Main(string[] args)
     {
+        // Stack ( Non-Generic Collection )
         /* Stack means pile of objects. 
            Stack Non Generic Collection in C#
            LIFO - Last In, First Out
