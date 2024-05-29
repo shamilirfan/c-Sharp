@@ -1,6 +1,6 @@
 using System;
 
-class Test9
+class dataTypeCasting2
 {
     public static void Main(string[] args)
     {

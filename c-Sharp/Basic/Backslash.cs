@@ -1,8 +1,6 @@
-// Backslash
-
 using System;
 
-class Test3
+class Backslash
 {
     public static void Main(string[] args)
     {
@@ -10,7 +8,7 @@ class Test3
         Console.Write("\t how are ");
         Console.WriteLine("you?");
         Console.WriteLine("\\ Hi");
-        Console.WriteLine("\" Hi\"");
-        Console.WriteLine("\' Hi\'");
+        Console.WriteLine("\"Hi\"");
+        Console.WriteLine("\'Hi\'");
     }
 }
