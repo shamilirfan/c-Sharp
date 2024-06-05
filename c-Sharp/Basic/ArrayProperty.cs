@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-class ArrayProAndMeth
+class ArrayProperty
 {
     public static void Main(string[] args)
     {
@@ -13,12 +13,6 @@ class ArrayProAndMeth
         Console.WriteLine($"Length of array = {numbers1.Length}");
         Console.WriteLine($"Dyemention of array = {numbers1.Rank}");
         Console.WriteLine($"Dyemention of array = {numbers2.Rank}");
-        Console.WriteLine(numbers1.Max());
-        Console.WriteLine(numbers1.Min());
-        Console.WriteLine(numbers1.Sum());
-        Console.WriteLine(numbers1.Average());
-
-
 
     }
 }
