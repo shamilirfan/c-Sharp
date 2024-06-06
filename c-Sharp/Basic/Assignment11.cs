@@ -9,6 +9,7 @@ class Assignment11
     {
         string input = "Hello 123 World!";
 
+        int count = input.Count();
         int vowelCount = input.Count(a => "aeiouAEIOU".Contains(a));
         int consonantCount = input.Count(a => char.IsLetter(a) && !"aeiouAEIOU".Contains(a));
         int digitCount = input.Count(char.IsDigit);
@@ -17,6 +18,7 @@ class Assignment11
         string[] words = input.Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
 
+        Console.WriteLine($"Count = {count}");
         Console.WriteLine($"Number of vowels: {vowelCount}");
         Console.WriteLine($"Number of consonant: {consonantCount}");
         Console.WriteLine($"Number of digit: {digitCount}");
