@@ -1,5 +1,5 @@
 using System;
-
+// 1
 class Person
 {
     public string name;
@@ -11,7 +11,7 @@ class Fruit
     public string color;
     public int price;
 }
-class ClassandObject
+class ClassAndObject
 {
     public static void Main(string[] args)
     {
