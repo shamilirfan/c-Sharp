@@ -7,9 +7,10 @@ class PersonClass2
     // default constructor
     public PersonClass2()
     {
-        name = "test";
+        name = "not a value";
         age = 0;
     }
+    // parameter ways constructor
     public PersonClass2(string n, int a)
     {
         name = n;
