@@ -1,41 +1,36 @@
 using System;
-
-class PersonClass
+// 11
+class Person
 {
-    string name;
-    int age;
-    public PersonClass(string name, int age) : this(name) // Constructor Chaining
+    public string? firstName { get; set; }
+    public string? middleName { get; set; }
+    public string? lastName { get; set; }
+
+    public Person(string firstName, string middleName, string lastName) : this(firstName, lastName)
     {
-        this.age = age;
+        this.middleName = middleName;
     }
-    // constructor overloading
-    public PersonClass(string name) : this()
+    public Person(string firstName, string lastName) : this(firstName)
     {
-        this.name = name;
+        this.lastName = lastName;
     }
-    // default constructor
-    public PersonClass()
+    public Person(string firstName)
     {
-        name = "test";
-        age = 0;
-    }
-    public void DisplayPersonInfo()
-    {
-        Console.WriteLine($"Name: {name}, Age: {age}");
+        this.firstName = firstName;
     }
 }
 class ConstructorChaining
 {
     public static void Main(string[] args)
     {
-        PersonClass person1 = new PersonClass("Alex", 33);
-        person1.DisplayPersonInfo();
+        Person person1 = new Person("MD", "Anisul", "Islam");
+        Person person2 = new Person("SK", "Himal");
+        Person person3 = new Person("Shagor");
 
-        PersonClass person2 = new PersonClass("Bob");
-        person2.DisplayPersonInfo();
+        Console.WriteLine($"{person1.firstName} {person1.middleName} {person1.lastName}");
+        Console.WriteLine($"{person2.firstName} {person2.lastName}");
+        Console.WriteLine($"{person3.firstName}");
 
-        PersonClass person3 = new PersonClass();
-        person3.DisplayPersonInfo();
     }
 
 }

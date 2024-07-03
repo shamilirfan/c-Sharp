@@ -1,38 +1,34 @@
 using System;
-
-class PeRson
+// 12
+class Person
 {
-    public string FirstName { get; set; }
-    public string MiddleName { get; set; }
-    public string LastName { get; set; }
-    public Address PresentAddress { get; set; } // Here. Address is data type and PresentAddress is field name.
+    public string? name { get; set; }
+    public Address? address { get; set; } // Here. Address is data type and PresentAddress is field name.
 }
 class Address
 {
-    public string HouseNumber { get; set; }
-    public string RoadNumber { get; set; }
-    public string Area { get; set; }
-    public string PostCode { get; set; }
-    public string District { get; set; }
+    public string? houseNumber { get; set; }
+    public string? roadNumber { get; set; }
+    public string? area { get; set; }
+    public string? postCode { get; set; }
+    public string? district { get; set; }
 }
 class OneToOneAssociationRelationship
 {
     public static void Main(string[] args)
     {
-        Address address = new Address();
-        address.HouseNumber = "H-101";
-        address.RoadNumber = "R-101";
-        address.Area = "Rayerbag";
-        address.PostCode = "P-101";
-        address.District = "Dhaka";
+        Address address1 = new Address();
+        address1.houseNumber = "H-101";
+        address1.roadNumber = "R-101";
+        address1.area = "Rayerbag";
+        address1.postCode = "P-101";
+        address1.district = "Dhaka";
 
-        PeRson person1 = new PeRson();
-        person1.PresentAddress = address;
+        Person person1 = new Person();
+        person1.name = "Anis";
+        person1.address = address1;
 
-        string area = person1.PresentAddress.Area;
-        string district = person1.PresentAddress.District;
-
-        Console.WriteLine($"Area: {area}, District: {district}");
+        Console.WriteLine($"Name: {person1.name}, House Number: {person1.address.houseNumber}, Road Number: {person1.address.roadNumber}");
 
     }
 }
