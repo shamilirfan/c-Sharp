@@ -16,7 +16,7 @@ class PersonClass2
         name = n;
         age = a;
     }
-    // constructor overloading
+    // constructor overloading. It is means everything is same but parameter is diffrent.
     public PersonClass2(string n)
     {
         name = n;
