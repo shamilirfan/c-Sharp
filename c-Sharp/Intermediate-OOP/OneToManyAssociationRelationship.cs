@@ -1,6 +1,6 @@
 using System;
 
-// 12
+// 13
 class Department
 {
     public int departmentId { get; set; }
@@ -57,6 +57,6 @@ class OneToManyAssociationRelationship
         department1.courses.Add(course2);
 
         //
-        Console.WriteLine($"{department1.DisplayInfo()}");
+        Console.WriteLine(department1.DisplayInfo());
     }
 }
