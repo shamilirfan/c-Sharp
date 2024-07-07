@@ -28,8 +28,7 @@ class SavingAccount : BankAccount
     {
         if (balance >= amount)
         {
-            base.Withdraw(amount);
-            return "Withdrawn";
+            return base.Withdraw(amount);
         }
         else
         {
