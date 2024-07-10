@@ -7,12 +7,14 @@ class Player
 {
     public string name;
     public int age;
+
     public Player(string name, int age)
     {
         this.name = name;
         this.age = age;
     }
 }
+
 class ListOfObjects
 {
     public static void Main(string[] args)
@@ -26,6 +28,5 @@ class ListOfObjects
         {
             Console.WriteLine($"{player.name} is {player.age} years old.");
         }
-
     }
 }
