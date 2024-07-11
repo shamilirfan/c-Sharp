@@ -1,15 +1,17 @@
 using System;
 
+// 28
 enum Months
 {
-    January,    // 0
-    February,   // 1
-    March,      // 2
-    April,      // 3
-    May,        // 4
-    June,       // 5
-    July        // 6
+    January, // 0
+    February, // 1
+    March, // 2
+    April, // 3
+    May, // 4
+    June, // 5
+    July // 6
 }
+
 class Enum
 {
     public static void Main(string[] args)
@@ -19,8 +21,6 @@ class Enum
 
         int b = (int)Months.February;
         Console.WriteLine($"{b}");
-
-
 
         // use of enums with switch case
         Months c = Months.February;
@@ -36,6 +36,5 @@ class Enum
                 Console.WriteLine($"{Months.March} is the month of victory.");
                 break;
         }
-
     }
 }
