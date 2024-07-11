@@ -1,33 +1,26 @@
 using System;
 
-class Human
+// 29
+class Student
 {
     public string? Name { get; set; }
-    public string? Type { get; set; }
-    public Human(string Name, string Type)
+    public int Age { get; set; }
+    public static string? City { get; set; }
+
+    public Student(string Name, int Age)
     {
         this.Name = Name;
-        this.Type = Type;
-    }
-    public void DisplayInfo_1()
-    {
-        Console.WriteLine($"Name: {this.Name}, Type: {this.Type}");
-        Console.WriteLine($"Name: {Name}, Type: {Type}");
-    }
-    public static void DisplayInfo_2(string Name, string Type)
-    {
-        Console.WriteLine($"Name: {Name}, Type: {Type}");
+        this.Age = Age;
     }
 }
+
 class Static
 {
     public static void Main(string[] args)
     {
-        Human human = new Human("Nowshin", "Human");
-        human.DisplayInfo_1();
+        Student student1 = new Student("Anika", 20);
+        Student.City = "Comilla";
 
-        // Direct Access
-        Human.DisplayInfo_2("Nowshin", "Human");
-
+        Console.WriteLine($"Name: {student1.Name}, Age: {student1.Age}, City: {Student.City}");
     }
 }
