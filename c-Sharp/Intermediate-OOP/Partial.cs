@@ -1,13 +1,16 @@
 using System;
 
+// 33
 public partial class Human
 {
     public string? Name { get; set; }
 }
+
 public partial class Human
 {
     public string? Type { get; set; }
 }
+
 class Partial
 {
     public static void Main(string[] args)
@@ -17,6 +20,5 @@ class Partial
         p1.Type = "Human";
 
         Console.WriteLine($"Name: {p1.Name}, Type: {p1.Type}");
-
     }
 }
