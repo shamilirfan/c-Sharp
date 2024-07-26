@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Collections;
 
-class Pop
+class PushAndPop
 {
     public static void Main(string[] args)
     {
