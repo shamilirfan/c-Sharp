@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shamil Irfan\\c-Sharp\\Program.cs\\Program.cs.csproj": {}
+    "C:\\Users\\shami\\c-Sharp\\Program.cs\\Program.cs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shamil Irfan\\c-Sharp\\Program.cs\\Program.cs.csproj": {
+    "C:\\Users\\shami\\c-Sharp\\Program.cs\\Program.cs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shamil Irfan\\c-Sharp\\Program.cs\\Program.cs.csproj",
+        "projectUniqueName": "C:\\Users\\shami\\c-Sharp\\Program.cs\\Program.cs.csproj",
         "projectName": "Program.cs",
-        "projectPath": "C:\\Users\\Shamil Irfan\\c-Sharp\\Program.cs\\Program.cs.csproj",
-        "packagesPath": "C:\\Users\\Shamil Irfan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shamil Irfan\\c-Sharp\\Program.cs\\obj\\",
+        "projectPath": "C:\\Users\\shami\\c-Sharp\\Program.cs\\Program.cs.csproj",
+        "packagesPath": "C:\\Users\\shami\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shami\\c-Sharp\\Program.cs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Shamil Irfan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\shami\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
