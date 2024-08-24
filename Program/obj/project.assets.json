@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\shami\\.nuget\\packages\\": {}
+    "C:\\Users\\This pc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shami\\c-Sharp\\Program\\Program.csproj",
+      "projectUniqueName": "C:\\Users\\This pc\\Downloads\\c-Sharp\\Program\\Program.csproj",
       "projectName": "Program",
-      "projectPath": "C:\\Users\\shami\\c-Sharp\\Program\\Program.csproj",
-      "packagesPath": "C:\\Users\\shami\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shami\\c-Sharp\\Program\\obj\\",
+      "projectPath": "C:\\Users\\This pc\\Downloads\\c-Sharp\\Program\\Program.csproj",
+      "packagesPath": "C:\\Users\\This pc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\This pc\\Downloads\\c-Sharp\\Program\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\shami\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\This pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

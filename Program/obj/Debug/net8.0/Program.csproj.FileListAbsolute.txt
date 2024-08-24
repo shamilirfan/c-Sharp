@@ -13,3 +13,18 @@ C:\Users\shami\c-Sharp\Program\obj\Debug\net8.0\refint\Program.dll
 C:\Users\shami\c-Sharp\Program\obj\Debug\net8.0\Program.pdb
 C:\Users\shami\c-Sharp\Program\obj\Debug\net8.0\Program.genruntimeconfig.cache
 C:\Users\shami\c-Sharp\Program\obj\Debug\net8.0\ref\Program.dll
+C:\Users\This pc\Downloads\c-Sharp\Program\bin\Debug\net8.0\Program.exe
+C:\Users\This pc\Downloads\c-Sharp\Program\bin\Debug\net8.0\Program.deps.json
+C:\Users\This pc\Downloads\c-Sharp\Program\bin\Debug\net8.0\Program.runtimeconfig.json
+C:\Users\This pc\Downloads\c-Sharp\Program\bin\Debug\net8.0\Program.dll
+C:\Users\This pc\Downloads\c-Sharp\Program\bin\Debug\net8.0\Program.pdb
+C:\Users\This pc\Downloads\c-Sharp\Program\obj\Debug\net8.0\Program.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This pc\Downloads\c-Sharp\Program\obj\Debug\net8.0\Program.AssemblyInfoInputs.cache
+C:\Users\This pc\Downloads\c-Sharp\Program\obj\Debug\net8.0\Program.AssemblyInfo.cs
+C:\Users\This pc\Downloads\c-Sharp\Program\obj\Debug\net8.0\Program.csproj.CoreCompileInputs.cache
+C:\Users\This pc\Downloads\c-Sharp\Program\obj\Debug\net8.0\Program.sourcelink.json
+C:\Users\This pc\Downloads\c-Sharp\Program\obj\Debug\net8.0\Program.dll
+C:\Users\This pc\Downloads\c-Sharp\Program\obj\Debug\net8.0\refint\Program.dll
+C:\Users\This pc\Downloads\c-Sharp\Program\obj\Debug\net8.0\Program.pdb
+C:\Users\This pc\Downloads\c-Sharp\Program\obj\Debug\net8.0\Program.genruntimeconfig.cache
+C:\Users\This pc\Downloads\c-Sharp\Program\obj\Debug\net8.0\ref\Program.dll
