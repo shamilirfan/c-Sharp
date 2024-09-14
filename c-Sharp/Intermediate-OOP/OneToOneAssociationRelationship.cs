@@ -3,7 +3,7 @@ using System;
 class Person
 {
     public string? name { get; set; }
-    public Address? address { get; set; } // Here. Address is data type and PresentAddress is field name.
+    public Address? address { get; set; } // Here. Address is data type and address is field name.
 }
 class Address
 {

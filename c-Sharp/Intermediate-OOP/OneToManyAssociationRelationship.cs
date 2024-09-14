@@ -3,60 +3,74 @@ using System;
 // 13
 class Department
 {
-    public int departmentId { get; set; }
-    public string? departmentName { get; set; }
-    public List<Course> courses { get; set; }
-
-    public Department()
+    public int DepartmentID { get; set; }
+    public string? DepartmentName { get; set; }
+    public List<Course> Courses { get; set; }
+    public Department(int DepartmentID, string DepartmentName)
     {
-        courses = new List<Course>();
+        Courses = new List<Course>();
+        this.DepartmentID = DepartmentID;
+        this.DepartmentName = DepartmentName;
     }
-
     public string DisplayInfo()
     {
-        string info = "";
-        foreach (Course course in courses)
+        string info = $"{Environment.NewLine}Department Name: {DepartmentName}";
+        foreach (Course course in Courses)
         {
-            info += course.DisplayInfo() + Environment.NewLine;
+            info += $"{Environment.NewLine}Course ID: {course.CourseID}{Environment.NewLine}Course Name: {course.CourseName}{Environment.NewLine}Duration: {course.CourseDuration} months";
         }
         return info;
     }
 }
-
 class Course
 {
-    public int courseId { get; set; }
-    public string? courseName { get; set; }
-    public string? courseDuration { get; set; }
-
-    public string DisplayInfo()
+    public int CourseID { get; set; }
+    public string? CourseName { get; set; }
+    public int? CourseDuration { get; set; }
+    public Course(int CourseID, string CourseName, int CourseDuration)
     {
-        return $"ID: {courseId}, Name: {courseName}, Duration: {courseDuration}";
+        this.CourseID = CourseID;
+        this.CourseName = CourseName;
+        this.CourseDuration = CourseDuration;
     }
+    // public string DisplayInfo() => $"CourseID: {CourseID}, CourseName: {CourseName}, Duration: {CourseDuration} months.";
+}
+class Students
+{
+    public int Roll { get; set; }
+    public string? Name { get; set; }
+    public Students(int roll, string name)
+    {
+        this.Roll = roll;
+        this.Name = name;
+    }
+    public string DisplayInfo() => $"{Environment.NewLine}Roll: {Roll}{Environment.NewLine}Name: {Name}";
 }
 
 class OneToManyAssociationRelationship
 {
     public static void Main(string[] args)
     {
-        Course course1 = new Course();
-        course1.courseId = 1;
-        course1.courseName = "C#";
-        course1.courseDuration = "3 month";
+        // Course
+        Course course1 = new Course(1, "C#", 2);
+        Course course2 = new Course(2, "Python", 3);
+        Course course3 = new Course(3, "Computer Networking", 6);
 
-        Course course2 = new Course();
-        course2.courseId = 2;
-        course2.courseName = "Python";
-        course2.courseDuration = "4 month";
+        // Department
+        Department department1 = new Department(1, "CSE");
+        Department department2 = new Department(2, "EEE");
+        department1.Courses.Add(course1);
+        department1.Courses.Add(course2);
+        department2.Courses.Add(course3);
 
-        //
-        Department department1 = new Department();
-        department1.departmentId = 1;
-        department1.departmentName = "CSE";
-        department1.courses.Add(course1);
-        department1.courses.Add(course2);
+        // Students
+        Students students1 = new Students(1, "Bob");
+        Students students2 = new Students(2, "Nowshin");
 
-        //
-        Console.WriteLine(department1.DisplayInfo());
+        // Print Info
+        Console.WriteLine($"{students1.DisplayInfo()}{department1.DisplayInfo()}");
+        Console.WriteLine($"{students2.DisplayInfo()}{department2.DisplayInfo()}");
+        Console.WriteLine();
+
     }
 }
