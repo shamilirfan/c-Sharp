@@ -4,7 +4,8 @@ using System;
 // Types of Inheritance :-
 // 1. Single Inheritance
 // 2. Hierarchical Inheritance
-// 3. Multi Level Inheritance
+// 3. Multi Level Inheritance (not supported in c#)
+
 class BankAccount
 {
     public string accountNumber { get; set; }

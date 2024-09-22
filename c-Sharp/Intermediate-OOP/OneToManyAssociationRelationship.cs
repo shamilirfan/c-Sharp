@@ -33,7 +33,6 @@ class Course
         this.CourseName = CourseName;
         this.CourseDuration = CourseDuration;
     }
-    // public string DisplayInfo() => $"CourseID: {CourseID}, CourseName: {CourseName}, Duration: {CourseDuration} months.";
 }
 class Students
 {
