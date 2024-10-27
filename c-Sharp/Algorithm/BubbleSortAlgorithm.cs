@@ -1,6 +1,6 @@
 using System;
 
-class BubbleSort
+class BubbleSortAlgorithm
 {
     public static void Main(string[] args)
     {
