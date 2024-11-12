@@ -34,7 +34,12 @@ class FavoriteSequence
 
 			// step-6
 			for (int m = 0; m < input2; m++)
+			{
 				Console.Write($"{arr[m]} ");
+			}
+
+			Console.WriteLine();
 		}
+
 	}
 }
